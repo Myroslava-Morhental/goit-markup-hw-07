@@ -17,7 +17,7 @@
         "../sass/components/studio/_footer-form.scss",
         "../sass/components/studio/_modal.scss",
         "../sass/components/portfolio/_projects-buttons.scss",
-        "../sass/components/portfolio/projects.scss"
+        "../sass/components/portfolio/_projects.scss"
     ],
     "names": [],
     "file": "main.css"
