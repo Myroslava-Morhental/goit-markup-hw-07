@@ -1,0 +1,35 @@
+.section-features__list {
+  display: flex;
+}
+.section-features__item:not(:last-child) {
+  margin-right: 30px;
+}
+.section-features__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+}
+.section-features__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.section-features__title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.section-features__text {
+  font-size: 14px;
+  line-height: 1.7;
+}

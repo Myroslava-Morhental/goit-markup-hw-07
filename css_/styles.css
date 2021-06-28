@@ -182,21 +182,17 @@ img {
   max-width: 696px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.hero__section,
-.footer {
-  background-color: var(--secondary-bg-color);
-}
-.hero__title {
-  margin-bottom: 40px;
-
   font-weight: 900;
   font-size: 44px;
   color: #ffffff;
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+.hero__section,
+.footer {
+  background-color: var(--secondary-bg-color);
 }
 
 .hero__button {
