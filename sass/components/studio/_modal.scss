@@ -9,14 +9,12 @@
   background: rgba(0, 0, 0, 0.2);
   transform: scale(1.15);
   transition: opacity var(--main-duration) var(--main-trans-timing-function),
-    visibility var(--main-duration) var(--main-trans-timing-function),
-    400ms var(--main-trans-timing-function);
-
-  & .is-hidden {
-    opacity: 0;
-    pointer-events: none;
-    transform: scale(1);
-  }
+    visibility var(--main-duration) var(--main-trans-timing-function);
+}
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(1);
 }
 
 .modal {
